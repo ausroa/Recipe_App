@@ -7,6 +7,7 @@ import {Component, OnInit, EventEmitter, Output} from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   @Output() selection = new EventEmitter<string>();
+  clicked = false;
 
   constructor() { }
 
